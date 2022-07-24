@@ -2,10 +2,14 @@ require 'httparty'
 require 'httparty/request'
 require 'httparty/response/headers'
 
+#referencia de onde esta o modulo contato
+require_relative '../services/contatos_service.rb'
+
 RSpec.configure do |config|
-  # rspec-expectations config goes here. You can use an alternate
-  # assertion/expectation library such as wrong or the stdlib/minitest
-  # assertions if you prefer.
+
+  #modulo esta como global 
+  include Contato
+
   config.expect_with :rspec do |expectations|
     # This option will default to `true` in RSpec 4. It makes the `description`
     # and `failure_message` of custom matchers include text for helper methods
