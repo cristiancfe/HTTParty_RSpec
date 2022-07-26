@@ -13,6 +13,8 @@ RSpec.configure do |config|
   #modulo esta como global 
   include Contato
   include Criar
+  config.color = true
+  config.formatter = :documentation
 
   config.expect_with :rspec do |expectations|
     # This option will default to `true` in RSpec 4. It makes the `description`
