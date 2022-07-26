@@ -3,6 +3,10 @@ require 'httparty/request'
 require 'httparty/response/headers'
 require 'faker'
 
+@rspec_yml = YAML.load_file("#{Dir.pwd}/support/rspec.yml")
+@ambiente = @rspec_yml['ambiente']
+CONFIG = YAML.load_file("#{Dir.pwd}/support/data/#{@ambiente}.yml")
+
 
 #referencia de onde esta o modulo contato
 require_relative '../services/contatos_service.rb'

@@ -283,21 +283,21 @@ a {
   <dl style="margin-left: 0px;">
   <dt id="example_group_1" class="passed">fazer requisicoes</dt>
     <script type="text/javascript">moveProgressBar('12.5');</script>
-    <dd class="example passed"><span class="passed_spec_name">deletar contato</span><span class='duration'>0.63980s</span></dd>
+    <dd class="example passed"><span class="passed_spec_name">deletar contato</span><span class='duration'>0.82395s</span></dd>
   </dl>
 </div>
 <div id="div_group_2" class="example_group passed">
   <dl style="margin-left: 0px;">
   <dt id="example_group_2" class="passed">fazer uma requisição</dt>
     <script type="text/javascript">moveProgressBar('25.0');</script>
-    <dd class="example passed"><span class="passed_spec_name">get</span><span class='duration'>0.61799s</span></dd>
+    <dd class="example passed"><span class="passed_spec_name">get</span><span class='duration'>0.60714s</span></dd>
   </dl>
 </div>
 <div id="div_group_3" class="example_group passed">
   <dl style="margin-left: 0px;">
   <dt id="example_group_3" class="passed">fazer uma requisicao</dt>
     <script type="text/javascript">moveProgressBar('37.5');</script>
-    <dd class="example passed"><span class="passed_spec_name">post</span><span class='duration'>0.59277s</span></dd>
+    <dd class="example passed"><span class="passed_spec_name">post</span><span class='duration'>0.60605s</span></dd>
   </dl>
 </div>
 <div id="div_group_4" class="example_group passed">
@@ -309,28 +309,28 @@ a {
   <dl style="margin-left: 15px;">
   <dt id="example_group_5" class="passed">alterar dados com</dt>
     <script type="text/javascript">moveProgressBar('50.0');</script>
-    <dd class="example passed"><span class="passed_spec_name">put</span><span class='duration'>0.61282s</span></dd>
+    <dd class="example passed"><span class="passed_spec_name">put</span><span class='duration'>0.61245s</span></dd>
     <script type="text/javascript">moveProgressBar('62.5');</script>
-    <dd class="example passed"><span class="passed_spec_name">patch</span><span class='duration'>0.60609s</span></dd>
+    <dd class="example passed"><span class="passed_spec_name">patch</span><span class='duration'>0.61107s</span></dd>
   </dl>
 </div>
 <div id="div_group_6" class="example_group passed">
   <dl style="margin-left: 0px;">
   <dt id="example_group_6" class="passed">usando token</dt>
     <script type="text/javascript">moveProgressBar('75.0');</script>
-    <dd class="example passed"><span class="passed_spec_name">token</span><span class='duration'>9.39241s</span></dd>
+    <dd class="example passed"><span class="passed_spec_name">token</span><span class='duration'>9.54249s</span></dd>
   </dl>
 </div>
 <div id="div_group_7" class="example_group passed">
   <dl style="margin-left: 0px;">
   <dt id="example_group_7" class="passed">fazer uma requisição</dt>
     <script type="text/javascript">moveProgressBar('87.5');</script>
-    <dd class="example passed"><span class="passed_spec_name">get</span><span class='duration'>0.59587s</span></dd>
+    <dd class="example passed"><span class="passed_spec_name">get</span><span class='duration'>0.59990s</span></dd>
     <script type="text/javascript">moveProgressBar('100.0');</script>
-    <dd class="example passed"><span class="passed_spec_name">get</span><span class='duration'>0.61834s</span></dd>
+    <dd class="example passed"><span class="passed_spec_name">get</span><span class='duration'>0.59575s</span></dd>
   </dl>
 </div>
-<script type="text/javascript">document.getElementById('duration').innerHTML = "Finished in <strong>13.70923 seconds</strong>";</script>
+<script type="text/javascript">document.getElementById('duration').innerHTML = "Finished in <strong>14.03071 seconds</strong>";</script>
 <script type="text/javascript">document.getElementById('totals').innerHTML = "8 examples, 0 failures";</script>
 </div>
 </div>
