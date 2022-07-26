@@ -6,7 +6,7 @@ describe 'fazer uma requisição',:teste_de_requisicao do
   #puts @primeira_opcao  
 
   
-  @melhor_opcao = Contato.get('/contacts/2502')
+  @melhor_opcao = Contato.get('/contacts/2500')
   puts @melhor_opcao
   end  
 end
