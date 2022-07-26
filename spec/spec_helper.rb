@@ -1,14 +1,18 @@
 require 'httparty'
 require 'httparty/request'
 require 'httparty/response/headers'
+require 'faker'
+
 
 #referencia de onde esta o modulo contato
 require_relative '../services/contatos_service.rb'
+require_relative '../services/criar_service.rb'
 
 RSpec.configure do |config|
 
   #modulo esta como global 
   include Contato
+  include Criar
 
   config.expect_with :rspec do |expectations|
     # This option will default to `true` in RSpec 4. It makes the `description`
